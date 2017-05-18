@@ -1,0 +1,265 @@
+# depslib dependency file v1.0
+1491989884 source:/opt/myworkspace/facemodel/main.cpp
+	<sstream>
+	<cstdlib>
+	<unistd.h>
+	<cstdint>
+	<fstream>
+	<iostream>
+	<string>
+	<dirent.h>
+	<vector>
+	<sys/stat.h>
+	<sys/types.h>
+	<time.h>
+	<opencv2/contrib/contrib.hpp>
+	"simple_log.h"
+	"http_server.h"
+	"threadpool.h"
+	"SeetaFace.h"
+	<b64/cencode.h>
+	<b64/cdecode.h>
+
+1490349835 /opt/myworkspace/facemodel/include/simple_log.h
+	<cstring>
+	<string>
+	<fstream>
+	"sys/time.h"
+	<pthread.h>
+
+1490349835 /opt/myworkspace/facemodel/include/http_server.h
+	<string>
+	<map>
+	<set>
+	"sys/epoll.h"
+	"json/json.h"
+	"epoll_socket.h"
+	"sim_parser.h"
+
+1490349834 /opt/myworkspace/facemodel/include/json/json.h
+	"autolink.h"
+	"value.h"
+	"reader.h"
+	"writer.h"
+	"features.h"
+
+1490349834 /opt/myworkspace/facemodel/include/json/autolink.h
+	"config.h"
+	<cpptl/cpptl_autolink.h>
+	"autolink.h"
+
+1490349834 /opt/myworkspace/facemodel/include/json/config.h
+	<cpptl/config.h>
+
+1490349834 /opt/myworkspace/facemodel/include/json/value.h
+	"forwards.h"
+	<string>
+	<vector>
+	<map>
+	<cpptl/smallmap.h>
+	<cpptl/forwards.h>
+
+1490349834 /opt/myworkspace/facemodel/include/json/forwards.h
+	"config.h"
+
+1490349834 /opt/myworkspace/facemodel/include/json/reader.h
+	"features.h"
+	"value.h"
+	<deque>
+	<stack>
+	<string>
+	<iostream>
+
+1490349834 /opt/myworkspace/facemodel/include/json/features.h
+	"forwards.h"
+
+1490349834 /opt/myworkspace/facemodel/include/json/writer.h
+	"value.h"
+	<vector>
+	<string>
+	<iostream>
+
+1490349835 /opt/myworkspace/facemodel/include/epoll_socket.h
+	"sys/epoll.h"
+	<vector>
+	<set>
+	<string>
+	"threadpool.h"
+
+1490349835 /opt/myworkspace/facemodel/include/threadpool.h
+	<pthread.h>
+	<deque>
+	<vector>
+	<sys/epoll.h>
+
+1490349835 /opt/myworkspace/facemodel/include/sim_parser.h
+	<string>
+	<sstream>
+	<map>
+	<vector>
+	<sys/time.h>
+	"json/json.h"
+	"simple_log.h"
+	"http_parser.h"
+
+1490348510 /opt/myworkspace/facemodel/include/http_parser.h
+	<sys/types.h>
+	<BaseTsd.h>
+	<stddef.h>
+	<stdint.h>
+
+1490581000 source:/opt/myworkspace/facemodel/epoll_socket.cpp
+	<cstdlib>
+	<climits>
+	<cstdio>
+	<cerrno>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/epoll.h>
+	<sys/fcntl.h>
+	<sys/sysinfo.h>
+	<unistd.h>
+	"simple_log.h"
+	"epoll_socket.h"
+
+1490581000 source:/opt/myworkspace/facemodel/http_server.cpp
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/epoll.h>
+	<sys/fcntl.h>
+	<unistd.h>
+	<sstream>
+	"simple_log.h"
+	"sim_parser.h"
+	"http_server.h"
+
+1491358374 source:/opt/myworkspace/facemodel/sim_parser.cpp
+	<sstream>
+	<cstdlib>
+	<algorithm>
+	"simple_log.h"
+	"sim_parser.h"
+	"http_parser.h"
+
+1490581000 source:/opt/myworkspace/facemodel/simple_config.cpp
+	<fstream>
+	<sstream>
+	"simple_config.h"
+
+1490349835 /opt/myworkspace/facemodel/include/simple_config.h
+	<string>
+	<map>
+
+1490581000 source:/opt/myworkspace/facemodel/simple_log.cpp
+	<fstream>
+	<sstream>
+	<cstdio>
+	<cstdlib>
+	<map>
+	<string>
+	<time.h>
+	<sys/stat.h>
+	<sys/time.h>
+	"stdarg.h"
+	<signal.h>
+	<errno.h>
+	<unistd.h>
+	"simple_config.h"
+	"simple_log.h"
+
+1490581000 source:/opt/myworkspace/facemodel/threadpool.cpp
+	"threadpool.h"
+	<sys/epoll.h>
+	<sys/fcntl.h>
+	<sys/sysinfo.h>
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	"simple_log.h"
+
+1490586689 /opt/myworkspace/facemodel/include/facedetection/include/face_detection.h
+	<cstdint>
+	<vector>
+	"common.h"
+
+1490586689 /opt/myworkspace/facemodel/include/facedetection/include/common.h
+	<cstdint>
+	<cstddef>
+	<omp.h>
+
+1491805425 /opt/myworkspace/facemodel/include/SeetaFace.h
+	<string>
+	<iostream>
+	<opencv/cv.h>
+	<opencv/highgui.h>
+	"face_detection.h"
+	"face_alignment.h"
+	"face_identification.h"
+
+1490602068 /opt/myworkspace/facemodel/include/faceidentification/include/face_detection.h
+	<cstdint>
+	<vector>
+	"common.h"
+
+1490602068 /opt/myworkspace/facemodel/include/faceidentification/include/common.h
+	<cstdint>
+	<omp.h>
+
+1490602068 /opt/myworkspace/facemodel/include/faceidentification/include/face_alignment.h
+	<cstdlib>
+	"common.h"
+
+1490602068 /opt/myworkspace/facemodel/include/faceidentification/include/face_identification.h
+	"common.h"
+
+1490601890 /opt/myworkspace/facemodel/include/facealignment/include/face_alignment.h
+	<cstdlib>
+	"common.h"
+
+1490601890 /opt/myworkspace/facemodel/include/facealignment/include/common.h
+	<cstdint>
+	<omp.h>
+
+1490607167 /opt/myworkspace/facemodel/include/face_identification.h
+	"common.h"
+
+1490607167 /opt/myworkspace/facemodel/include/common.h
+	<cstdint>
+	<omp.h>
+
+1490607167 /opt/myworkspace/facemodel/include/face_detection.h
+	<cstdint>
+	<vector>
+	"common.h"
+
+1490607167 /opt/myworkspace/facemodel/include/face_alignment.h
+	<cstdlib>
+	"common.h"
+
+1371559776 /opt/myworkspace/facemodel/include/b64/encode.h
+	<iostream>
+	"cencode.h"
+
+1371559776 /opt/myworkspace/facemodel/include/b64/cencode.h
+
+1371559776 /opt/myworkspace/facemodel/include/b64/decode.h
+	<iostream>
+	"cdecode.h"
+
+1371559776 /opt/myworkspace/facemodel/include/b64/cdecode.h
+
+1490864209 source:/opt/myworkspace/facemodel/ZBase64.cpp
+	"ZBase64.h"
+
+1490864278 /opt/myworkspace/facemodel/include/ZBase64.h
+	<string>
+
